@@ -10,7 +10,7 @@ from autoTest_ecshop.utils.log_util import logger
 
 class BasePage():
     def __init__(self, driver):
-        self.wait = WebDriverWait(driver, 10)
+        self.wait = WebDriverWait(driver, 20)
 
     def find_element(self, locator):
         try:

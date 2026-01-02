@@ -21,4 +21,4 @@ class TestBuy():
         assert expectedRes in actual
         # 退出
         buyPage.click_element(buyPage.logout_loc)
-        time.sleep(5)
+        time.sleep(1)
