@@ -1,0 +1,12 @@
+WARNING  selenium.webdriver.common.selenium_manager:selenium_manager.py:138 Exception managing MicrosoftEdge: Wrong browser/driver version
+DEBUG    logger:basePage.py:17 正在定位元素：('xpath', '//img[@src="themes/default/images/bnt_log.gif"]')
+DEBUG    logger:basePage.py:19 元素('xpath', '//img[@src="themes/default/images/bnt_log.gif"]')定位成功
+DEBUG    logger:basePage.py:36 点击元素('xpath', '//img[@src="themes/default/images/bnt_log.gif"]')
+DEBUG    logger:loginPage.py:22 输入用户名nige1,密码123446
+DEBUG    logger:basePage.py:17 正在定位元素：('name', 'username')
+DEBUG    logger:basePage.py:19 元素('name', 'username')定位成功
+DEBUG    logger:basePage.py:17 正在定位元素：('name', 'password')
+DEBUG    logger:basePage.py:19 元素('name', 'password')定位成功
+DEBUG    logger:basePage.py:17 正在定位元素：('name', 'submit')
+DEBUG    logger:basePage.py:19 元素('name', 'submit')定位成功
+DEBUG    logger:basePage.py:36 点击元素('name', 'submit')
