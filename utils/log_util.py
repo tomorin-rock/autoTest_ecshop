@@ -1,4 +1,3 @@
-
 import os,time,logging
 
 from autoTest_ecshop.utils.getPath import get_log_path
