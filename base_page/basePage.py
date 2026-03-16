@@ -1,14 +1,12 @@
 import traceback
 
-from holoviews.util import locator
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from autoTest_ecshop.utils.log_util import logger
 
 
-class BasePage():
+class BasePage:
     def __init__(self, driver):
         self.wait = WebDriverWait(driver, 20)
 

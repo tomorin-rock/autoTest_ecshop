@@ -9,7 +9,7 @@ log_path = get_log_path()
 if not os.path.exists(log_path):
     os.mkdir(log_path)
 
-class Logger():
+class Logger:
     def __init__(self):
         # 定义日志位置和文件名
         self.logname = os.path.join(log_path, "{}.log".format(time.strftime("%Y-%m-%d")))
