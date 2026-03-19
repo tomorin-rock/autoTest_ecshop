@@ -1,7 +1,5 @@
 import time
 
-import pytest
-
 from autoTest_ecshop.pages.buyPage import BuyPage
 
 

@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 
-from autoTest_ecshop.base_page.basePage import BasePage
 from autoTest_ecshop.pages.homePage import HomePage
 from autoTest_ecshop.utils.log_util import logger
 
